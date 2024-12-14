@@ -10,16 +10,18 @@ This tool can achieve rapid discovery of DoH services. Compared to tools such as
 
 # Usage
 
--m Max Rountine Number
--p Use the Path indicator for DoH path enumeration
--i Specify the input file. Must Required
--o Specify the output file. Must Required
--b Base Domain. Must Required.
--d Debug flag. Disable the debug mode.
--s Disable the SSL Layer filtration.
--c Disable the Cert Save flag. 
+-m Max Rountine Number  
+-p Use the Path indicator for DoH path enumeration  
+-i Specify the input file. Must Required  
+-o Specify the output file. Must Required  
+-b Base Domain. Must Required.  
+-d Debug flag. Disable the debug mode.  
+-s Disable the SSL Layer filtration.  
+-c Disable the Cert Save flag.  
 
 # Output
+
+This tool outputs three files
 
 ## doh.csv
 "domain_name", "query",
